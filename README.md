@@ -10,7 +10,7 @@ O processo funciona em duas etapas: primeiro, o código-fonte `.java` é compila
 `.class`; depois, a JVM interpreta ou just-in-time (JIT) compila esse bytecode em código nativo durante a execução,
 garantindo portabilidade e eficiência.
 
-![img.png](images/compilation.png)
+![compilation.png](images/compilation.png)
 
 ## Instalação do Java no Linux
 
