@@ -9,9 +9,7 @@ diferentes sistemas.
 O processo funciona em duas etapas: primeiro, o código-fonte `.java` é compilado pelo compilador `javac` em bytecode
 `.class`; depois, a JVM interpreta ou just-in-time (JIT) compila esse bytecode em código nativo durante a execução,
 garantindo portabilidade e eficiência.
-
-![compilation.png](images/compilation.png)
-
+![compilation.png](./images/compilation.png)
 ## Instalação do Java no Linux
 
 Para programar em Java, você precisa instalar o **JDK (Java Development Kit)**, que inclui o compilador `javac` e a JVM.
@@ -31,5 +29,5 @@ javac -version
 
 # Configuração opcional da variável JAVA_HOME
 echo "export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))" >> ~/.bashrc
-source ~/.bashrc
-```bash
+source ~/.bashrc 
+```  
