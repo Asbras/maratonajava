@@ -1,6 +1,6 @@
 package thisleo.maratonajava;
 
-public class Aula06EstruturasDeRepetição04 {
+public class Aula06EstruturasDeRepeticao04 {
     // Usando um break para sair de um laço de repetição
     // Dado um valor de um carro, descubra em quantos valores de parcelamento
     // Condição valorParcela ≥ 1000
