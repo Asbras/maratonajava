@@ -1,4 +1,4 @@
-package thisleo.maratonajava;
+package maratonajava.introducao;
 
 public class Aula06EstruturasDeRepeticao05 {
     // Programa que calcula e exibe as parcelas de um valor total de R$ 30.000,

@@ -1,4 +1,4 @@
-package thisleo.maratonajava;
+package maratonajava.introducao;
 /*
 * Prática
 *

@@ -1,4 +1,4 @@
-package thisleo.maratonajava;
+package maratonajava.introducao;
 
 public class Aula06EstruturasDeRepeticao04 {
     // Usando um break para sair de um laço de repetição

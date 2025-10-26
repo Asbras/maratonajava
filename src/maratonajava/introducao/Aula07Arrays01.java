@@ -1,4 +1,4 @@
-package thisleo.maratonajava;
+package maratonajava.introducao;
 
 public class Aula07Arrays01 {
     // Programa que cria um array de inteiros para armazenar idades,
