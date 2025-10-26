@@ -3,7 +3,7 @@ package maratonajava.javacore.Aintroducaoclasses.test;
 // Importa a classe Estudante do pacote especificado
 import maratonajava.javacore.Aintroducaoclasses.domain.Estudante;
 
-public class EstudanteTest01 {
+public class EstudanteTest {
     // Programa que demonstra a instanciação de um objeto da classe Estudante,
     // atribuição de valores aos seus atributos e exibição desses valores.
     // Conceitos cobertos:

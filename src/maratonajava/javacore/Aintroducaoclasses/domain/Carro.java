@@ -1,7 +1,7 @@
 package maratonajava.javacore.Aintroducaoclasses.domain;
 
-public class Estudante {
+public class Carro {
     public String nome;
-    public int idade;
-    public char sexo;
+    public String modelo;
+    public int ano;
 }
