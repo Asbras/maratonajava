@@ -4,8 +4,8 @@ import maratonajava.javacore.Aintroducaoclasses.domain.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {
-        Carro carro1 = new Carro();
-        Carro carro2 = new Carro();
+        Carro carro1 = new Carro(); // nova INSTANCIA carro1
+        Carro carro2 = new Carro(); // nova INSTANCIA carro2
 
         carro1.nome ="Fusca";
         carro1.modelo="Sport";
