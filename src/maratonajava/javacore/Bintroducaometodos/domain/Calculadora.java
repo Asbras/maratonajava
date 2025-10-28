@@ -21,4 +21,12 @@ public class Calculadora {
         }
         System.out.println( a + " / " + b + " = " + (a / b));
     }
+
+    public void alteraDoisNumeros (int a, int b) {
+        a = 99;
+        b = 33;
+        System.out.println("Dentro do alteraDoisNumeros");
+        System.out.println("A = "+a);
+        System.out.println("B = "+b);
+    }
 }
