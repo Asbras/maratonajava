@@ -30,21 +30,51 @@ javac -version
 # Configuração opcional da variável JAVA_HOME
 echo "export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))" >> ~/.bashrc
 source ~/.bashrc 
-```  
-## Sintaxe Básica
-- Tipos de dados
-- Variáveis
-- Operadores
-- Estruturas de controle (if, for, while)
+```
+# *Sintaxe Básica*
 
-## Orientação a Objetos
-- Classes e objetos
-- Herança
-- Polimorfismo
-- Encapsulamento
-- Interfaces
+## *Tipos de Dados*
 
-## Bibliotecas e APIs
-- Coleções (List, Set, Map)
-- Streams
-- Manipulação de arquivos
+Java possui dois tipos principais de dados:
+
+Primitivos: armazenam valores simples diretamente na memória.
+
+- byte – números inteiros pequenos (-128 a 127)
+- short – inteiros curtos (-32.768 a 32.767)
+- int – inteiros comuns
+- long – inteiros longos
+- float – números decimais de precisão simples
+- double – números decimais de dupla precisão
+- char – caracteres únicos (como 'A')
+- boolean – valores lógicos (true ou false)
+- Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas).
+
+## *Variáveis*
+
+Uma variável é um espaço na memória para armazenar um valor.
+A sintaxe básica é:
+```java
+    tipo nomeDaVariavel = valor;
+```
+### Exemplo:
+```java
+    int idade = 25;
+    double salario = 3500.50;
+    boolean ativo = true;
+    String nome = "João";
+```
+## *Operadores*
+- Aritméticos: +, -, *, /, %
+- Comparação: ==, !=, <, >, <=, >=
+- Lógicos: &&, ||, !
+- Atribuição: =, +=, -=, *=, /=
+- Incremento/Decremento: ++, --
+
+### Exemplo:
+```java
+    int a = 10;
+    int b = 5;
+    System.out.println(a + b); // 15
+    System.out.println(a > b); // true
+```
+## *Estrutura de Controle*
