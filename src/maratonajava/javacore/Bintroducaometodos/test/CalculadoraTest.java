@@ -28,7 +28,5 @@ public class CalculadoraTest {
         } catch (Exception e) {
             System.out.println("Não existe divisão por zero");
         }
-
-
     }
 }
