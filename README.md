@@ -1,4 +1,4 @@
-# *Estudo de Java*
+# Estudo de Java
 
 ## Introdução
 **Java** é uma linguagem de programação de alto nível, orientada a objetos, amplamente usada para desenvolver aplicações
@@ -9,7 +9,7 @@ diferentes sistemas.
 O processo funciona em duas etapas: primeiro, o código-fonte `.java` é compilado pelo compilador `javac` em bytecode
 `.class`; depois, a JVM interpreta ou just-in-time (JIT) compila esse bytecode em código nativo durante a execução,
 garantindo portabilidade e eficiência.
-![compilation.png](/images/java%20compilation.png)
+![compilation.png](./images/java%20compilation.png)
 ## Instalação do Java no Linux
 
 Para programar em Java, você precisa instalar o **JDK (Java Development Kit)**, que inclui o compilador `javac` e a JVM.
