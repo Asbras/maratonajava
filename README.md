@@ -56,10 +56,10 @@ A sintaxe básica é:
 ```
 ### Exemplo:
 ```java
-    int idade = 25;
-    double salario = 3500.50;
-    boolean ativo = true;
-    String nome = "João";
+int idade = 25;
+double salario = 3500.50;
+boolean ativo = true;
+String nome = "João";
 ```
 ## *Operadores*
     - Aritméticos: +, -, *, /, %
@@ -70,10 +70,10 @@ A sintaxe básica é:
 
 ### Exemplo:
 ```java
-    int a = 10;
-    int b = 5;
-    System.out.println(a + b); // 15
-    System.out.println(a > b); // true
+int a = 10;
+int b = 5;
+System.out.println(a + b); // 15
+System.out.println(a > b); // true
 ```
 ## *Estrutura de Controle*
 Estruturas de controle em hava são elementos que permitem alterar o fluxo de execução do programa, como condicionais 
@@ -82,42 +82,41 @@ condições.
 ## Condicionais
 ### 1. if-else
 ```java
-    int idade = 15;
+int idade = 15;
 
-    if (idade >= 18) {
-        System.out.println("Maior de idade");
-    } else if (idade >= 13) {
-        System.out.println("Adolescente");
-    } else {
-        System.out.println("Criança");
-    }
+if (idade >= 18) {
+    System.out.println("Maior de idade");
+} else if (idade >= 13) {
+    System.out.println("Adolescente");
+} else {
+    System.out.println("Criança");
+}
 ```
 
 ### 2. Switch
 ```java
-    byte dia = 5;
-    // O switch aceita dados dos tipos: char, int, byte, short, enum, String
-    int dia = 3;
-    switch (dia) {
-        case 1:
-            System.out.println("Domingo");
+byte dia = 5;
+// O switch aceita dados dos tipos: char, int, byte, short, enum, String
+int dia = 3;
+switch (dia) {
+    case 1:
+        System.out.println("Domingo");
         break;
-        case 2:
-            System.out.println("Segunda");
+    case 2:
+        System.out.println("Segunda");
         break;
-        default:
-            System.out.println("Outro dia");
+    default:
+        System.out.println("Outro dia");
 }
 ```
 
 ### 3. Operador Ternário
 O **operador ternário** é uma forma **compacta de substituir um `if-else` simples**, ideal para atribuir valores com base em uma condição.
 
-#### Sintaxe
 ```java
 (condição) ? valorSeVerdadeiro : valorSeFalso;
 
-
+// Verifica se é par ou ímpar
 int num = 10;
 String tipo = (num % 2 == 0) ? "Par" : "Ímpar";
 ```
