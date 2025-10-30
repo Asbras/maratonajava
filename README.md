@@ -6,18 +6,17 @@ multiplataforma. Ela é compilada para um código intermediário chamado *byteco
 sistema operacional, mas sim interpretado pela **Java Virtual Machine (JVM)**, permitindo que o mesmo programa rode em
 diferentes sistemas.
 
-O processo funciona em duas etapas: primeiro, o código-fonte `.java` é compilado pelo compilador `javac` em bytecode
-`.class`; depois, a JVM interpreta ou just-in-time (JIT) compila esse bytecode em código nativo durante a execução,
-garantindo portabilidade e eficiência.
+.java → javac → .class (bytecode) → JVM (JIT) → Código nativo
+
 ![compilation.png](./images/java%20compilation.png)
 ## Instalação do Java no Linux
 
-Para programar em Java, você precisa instalar o **JDK (Java Development Kit)**, que inclui o compilador `javac` e a JVM.
+Instale o **JDK 17** (LTS) para compilar e executar:
 
+### Ubuntu / Debian
 ```bash
-# Debian/Ubuntu
 sudo apt update
-sudo apt install openjdk-17-jdk
+sudo apt install openjdk-17-jdk -y
 java -version
 javac -version
 
@@ -35,23 +34,22 @@ source ~/.bashrc
 
 ## *Tipos de Dados*
 
-Java possui dois tipos principais de dados:
+## Tipos primitivos: armazenam valores simples diretamente na memória.
 
-Primitivos: armazenam valores simples diretamente na memória.
-
-- byte – números inteiros pequenos (-128 a 127)
-- short – inteiros curtos (-32.768 a 32.767)
-- int – inteiros comuns
-- long – inteiros longos
-- float – números decimais de precisão simples
-- double – números decimais de dupla precisão
-- char – caracteres únicos (como 'A')
-- boolean – valores lógicos (true ou false)
-- Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas).
+    - byte – números inteiros pequenos (-128 a 127)
+    - short – inteiros curtos (-32.768 a 32.767)
+    - int – inteiros comuns
+    - long – inteiros longos
+    - float – números decimais de precisão simples
+    - double – números decimais de dupla precisão
+    - char – caracteres únicos (como 'A')
+    - boolean – valores lógicos (true ou false)
+    - Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas).
 
 ## *Variáveis*
 
 Uma variável é um espaço na memória para armazenar um valor.
+
 A sintaxe básica é:
 ```java
     tipo nomeDaVariavel = valor;
@@ -64,11 +62,11 @@ A sintaxe básica é:
     String nome = "João";
 ```
 ## *Operadores*
-- Aritméticos: +, -, *, /, %
-- Comparação: ==, !=, <, >, <=, >=
-- Lógicos: &&, ||, !
-- Atribuição: =, +=, -=, *=, /=
-- Incremento/Decremento: ++, --
+    - Aritméticos: +, -, *, /, %
+    - Comparação: ==, !=, <, >, <=, >=
+    - Lógicos: &&, ||, !
+    - Atribuição: =, +=, -=, *=, /=
+    - Incremento/Decremento: ++, --
 
 ### Exemplo:
 ```java
@@ -78,3 +76,48 @@ A sintaxe básica é:
     System.out.println(a > b); // true
 ```
 ## *Estrutura de Controle*
+Estruturas de controle em hava são elementos que permitem alterar o fluxo de execução do programa, como condicionais 
+(if, else, switch) e laços de repetição (for, while, do-while). Elas controlam decisões e repetições com base em 
+condições.
+## Condicionais
+### 1. if-else
+```java
+    int idade = 15;
+
+    if (idade >= 18) {
+        System.out.println("Maior de idade");
+    } else if (idade >= 13) {
+        System.out.println("Adolescente");
+    } else {
+        System.out.println("Criança");
+    }
+```
+
+### 2. Switch
+```java
+    byte dia = 5;
+    // O switch aceita dados dos tipos: char, int, byte, short, enum, String
+    int dia = 3;
+    switch (dia) {
+        case 1:
+            System.out.println("Domingo");
+        break;
+        case 2:
+            System.out.println("Segunda");
+        break;
+        default:
+            System.out.println("Outro dia");
+}
+```
+
+### 3. Operador Ternário
+O **operador ternário** é uma forma **compacta de substituir um `if-else` simples**, ideal para atribuir valores com base em uma condição.
+
+#### Sintaxe
+```java
+(condição) ? valorSeVerdadeiro : valorSeFalso;
+
+
+int num = 10;
+String tipo = (num % 2 == 0) ? "Par" : "Ímpar";
+```
