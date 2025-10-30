@@ -1,5 +1,16 @@
 # Estudo de Java
 
+## Menu Rápido
+- [Introdução](#introdução)
+- [Instalação no Linux](#instalação-do-java-no-linux)
+- [Sintaxe Básica](#sintaxe-básica)
+    - [Tipos de Dados](#tipos-de-dados)
+    - [Variáveis](#variáveis)
+    - [Operadores](#operadores)
+- [Estruturas de Controle](#estruturas-de-controle)
+    - [Condicionais (`if`, `switch`, ternário)](#condicionais)
+    - [Laços de Repetição (`for`, `while`)](#laços-de-repetição)
+
 ## Introdução
 **Java** é uma linguagem de programação de alto nível, orientada a objetos, amplamente usada para desenvolver aplicações
 multiplataforma. Ela é compilada para um código intermediário chamado *bytecode*, que não é executado diretamente pelo
@@ -52,7 +63,7 @@ Uma variável é um espaço na memória para armazenar um valor.
 
 A sintaxe básica é:
 ```java
-    tipo nomeDaVariavel = valor;
+tipo nomeDaVariavel = valor;
 ```
 ### Exemplo:
 ```java
@@ -110,7 +121,7 @@ switch (dia) {
 }
 ```
 
-### 3. Operador Ternário
+### 3. Operador ternário
 O **operador ternário** é uma forma **compacta de substituir um `if-else` simples**, ideal para atribuir valores com base em uma condição.
 
 ```java
@@ -119,4 +130,34 @@ O **operador ternário** é uma forma **compacta de substituir um `if-else` simp
 // Verifica se é par ou ímpar
 int num = 10;
 String tipo = (num % 2 == 0) ? "Par" : "Ímpar";
+```
+
+## Laço de repetição
+### 1. For
+```java
+// Contar de 0 a 10
+for (int i = 0; i < 10; i++) {
+    System.out.println("For " + i);
+}
+```
+
+### 2. while
+```java
+// Imprimir a soma dos 100 primeiros números
+int count = 1;
+int soma = 0;
+while (count <= 100){
+    soma += count;
+    count++;
+}
+System.out.println(soma);
+```
+
+### 3. do-while
+```java
+int x = 5;
+do {
+    System.out.println("Executa pelo menos uma vez: " + x);
+    x--;
+} while (x > 5);
 ```
