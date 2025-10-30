@@ -1,4 +1,11 @@
-# Estudo de Java
+# Maratona Java - DevDojo
+**Por: Leonardo Carnio Della Torre (@Asbras)**
+
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Commits](https://img.shields.io/github/commit-activity/m/Asbras/maratonajava)
+
+> Repositório com **todos os exercícios** da **Maratona Java do DevDojo**  
+> Curso completo: POO, Métodos, Varargs, Exceptions, Clean Code
 
 ## Menu Rápido
 - [Introdução](#introdução)
@@ -10,7 +17,7 @@
 - [Estruturas de Controle](#estruturas-de-controle)
     - [Condicionais (`if`, `switch`, ternário)](#condicionais)
     - [Laços de Repetição (`for`, `while`)](#laços-de-repetição)
-
+- [Arrays](#arrays)
 ## Introdução
 **Java** é uma linguagem de programação de alto nível, orientada a objetos, amplamente usada para desenvolver aplicações
 multiplataforma. Ela é compilada para um código intermediário chamado *bytecode*, que não é executado diretamente pelo
@@ -125,6 +132,7 @@ switch (dia) {
 O **operador ternário** é uma forma **compacta de substituir um `if-else` simples**, ideal para atribuir valores com base em uma condição.
 
 ```java
+// Sintaxe:
 (condição) ? valorSeVerdadeiro : valorSeFalso;
 
 // Verifica se é par ou ímpar
@@ -161,3 +169,5 @@ do {
     x--;
 } while (x > 5);
 ```
+
+## Arrays

@@ -4,7 +4,7 @@ import maratonajava.javacore.Bintroducaometodos.domain.Calculadora;
 
 import java.util.Scanner;
 
-public class CalculadoraTest {
+public class CalculadoraTest01 {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
         Scanner entrada = new Scanner(System.in);
