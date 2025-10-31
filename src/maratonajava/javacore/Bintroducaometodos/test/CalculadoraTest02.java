@@ -9,6 +9,6 @@ public class CalculadoraTest02 {
         // usando o array
         calculadora.somaArray(numeros);
         // usando varargs
-        calculadora.somaVarArgs(1,2,3,4,6,7,8,9);
+        calculadora.somaVarArgs(1,2,3,4,5,6,7,8,9);
     }
 }
