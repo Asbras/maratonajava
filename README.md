@@ -222,7 +222,6 @@ for(int[] linha : matriz) {
 Uma **classe** é um modelo usado para representar um objeto do mundo real. Ela define as **propriedades** 
 (chamadas de **atributos**) e os **comportamentos** (chamados de **métodos**) que os **objetos criados a partir dela** terão.
 ```java
-// Carro.java
 public class Carro {
     // Define os atributos da classe
     public String nome;
@@ -254,10 +253,7 @@ public class Principal {
         carro2.nome = "Renault";
         carro2.modelo = "C3";
         carro2.ano = 2022;
-
-        // Chamada do método que exibe todos os atributos dos objetos
-        carro1.exibir();
-        carro2.exibir();
+        
     }
 }
 ```
@@ -267,6 +263,48 @@ public class Principal {
 | Conceito | Descrição |
 |-----------|------------|
 | **Classe** | É o modelo ou estrutura que define atributos e comportamentos. |
-| **Objeto** | É uma instância concreta de uma classe, com valores próprios. |
+| **Objeto** | É uma instância concreta de uma classe com valores próprios. |
 | **Atributos** | São as características do objeto (ex: nome, modelo, ano). |
 | **Métodos** | São as ações que o objeto pode executar (ex: exibir, acelerar). |
+
+## Métodos
+É um bloco de cógido que define um comportamento ou ação que um objeto pode executar. Ele é declarado dentro de uma 
+classe e pode receber parametros, executar instruções e opcionalmente retornar um valor.
+```java
+public class Carro {
+    public String nome;
+    public String modelo;
+    public int ano;
+
+    // método sem retorno (void)
+    public void exibir() {
+        System.out.println(nome + " " + modelo + " - Ano: " + ano);
+    }
+    
+    // Método com PARÂMETROS e RETORNO.
+    // O tipo de retorno é int, indicado antes do nome do método.
+    // O método calcularIdade faz: anoAtual - ano
+    // Neste caso: 2025 - 2023 = 2
+    public int calcularIdade(int anoAtual) {
+        return anoAtual - ano;
+    }
+}
+```
+
+```java
+public class Principal {
+    public static void main(String[] args) {
+        Carro carro1 = new Carro();
+        carro1.nome = "Hyundai";
+        carro1.modelo = "HB20";
+        carro1.ano = 2023;
+        
+        // Chamando o método com parâmetro e armazenando o retorno.
+        int idade1 = carro1.calcularIdade(2025);
+        // Imprimir no terminal o nome, modelo e idade do carro.
+        // Saída esperada:
+        // Hyundai HB20 tem 2 anos.
+        System.out.println(carro1.nome + " " + carro1.modelo + " tem " + idade1 + " anos.");
+    }
+}
+```
