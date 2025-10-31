@@ -16,7 +16,7 @@
     - [Operadores](#operadores)
 - [Estruturas de Controle](#estruturas-de-controle)
     - [Condicionais (`if`, `switch`, ternário)](#condicionais)
-    - [Laços de Repetição (`for`, `while`)](#laços-de-repetição)
+    - [Laços de Repetição (`for`, `while`)](#laço-de-repetição)
 - [Arrays](#arrays)
 - [Arrays Multidimensionais](#arrays-multidimensionais)
 - [Classes](#classes)
@@ -96,7 +96,7 @@ int b = 5;
 System.out.println(a + b); // 15
 System.out.println(a > b); // true
 ```
-## *Estrutura de Controle*
+## *Estruturas de Controle*
 Estruturas de controle em hava são elementos que permitem alterar o fluxo de execução do programa, como condicionais 
 (if, else, switch) e laços de repetição (for, while, do-while). Elas controlam decisões e repetições com base em 
 condições.
@@ -260,15 +260,15 @@ public class Principal {
 
 ### Resumo: Classe vs Objeto
 
-| Conceito | Descrição |
-|-----------|------------|
-| **Classe** | É o modelo ou estrutura que define atributos e comportamentos. |
-| **Objeto** | É uma instância concreta de uma classe com valores próprios. |
-| **Atributos** | São as características do objeto (ex: nome, modelo, ano). |
-| **Métodos** | São as ações que o objeto pode executar (ex: exibir, acelerar). |
+| Conceito      | Descrição                                                       |
+|---------------|-----------------------------------------------------------------|
+| **Classe**    | É o modelo ou estrutura que define atributos e comportamentos.  |
+| **Objeto**    | É uma instância concreta de uma classe com valores próprios.    |
+| **Atributos** | São as características do objeto (ex: nome, modelo, ano).       |
+| **Métodos**   | São as ações que o objeto pode executar (ex: exibir, acelerar). |
 
 ## Métodos
-É um bloco de cógido que define um comportamento ou ação que um objeto pode executar. Ele é declarado dentro de uma 
+É um bloco de cógido que define um comportamento ou ação que um objeto pode executar. Ele é declarado numa 
 classe e pode receber parametros, executar instruções e opcionalmente retornar um valor.
 ```java
 public class Carro {
