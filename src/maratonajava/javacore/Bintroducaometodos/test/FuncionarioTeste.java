@@ -2,6 +2,8 @@ package maratonajava.javacore.Bintroducaometodos.test;
 
 import maratonajava.javacore.Bintroducaometodos.domain.Funcionario;
 
+import java.util.Arrays;
+
 public class FuncionarioTeste {
     /*
     Crie uma classe Funcionário com os seguintes atributos:
@@ -15,10 +17,13 @@ public class FuncionarioTeste {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
 
-        funcionario.nome = "João";
-        funcionario.idade = 33;
-        funcionario.salarios = new double[]{1200, 987.32, 2000}; // como o atributo salário é um vetor é necessário passar os valores como um vetor
-
-        funcionario.imprimirDados();
+        funcionario.setIdade(34);
+        funcionario.setNome("João");
+        // como o atributo salário é um vetor é necessário passar os valores como um vetor
+        funcionario.setSalarios(new double[]{1200, 987.32, 2000});
+        System.out.println("Nome: " + funcionario.getNome());
+        System.out.println("Idade: " + funcionario.getIdade());
+        System.out.println("Salários: " + Arrays.toString(funcionario.getSalarios()));
+        funcionario.imprimeMediaSalario();
     }
 }
