@@ -4,6 +4,7 @@ public class Funcionario {
     private String nome;
     private int idade;
     private double[] salarios;
+    private double media = 0;
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -16,16 +17,21 @@ public class Funcionario {
     public void setSalarios (double[] salarios) {
         this.salarios = salarios;
     }
+
     public String getNome() {
-        return this.nome;
+        return nome;
     }
 
     public int getIdade() {
-        return this.idade;
+        return idade;
     }
 
     public double[] getSalarios () {
         return this.salarios;
+    }
+
+    public double getMedia() {
+        return media;
     }
 
     public void imprimirDados() {
@@ -44,7 +50,6 @@ public class Funcionario {
         if (salarios == null) {
             return;
         }
-        double media = 0;
         for (double salario : salarios) {
              media += salario;
         }
