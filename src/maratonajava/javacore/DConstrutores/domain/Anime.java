@@ -20,7 +20,7 @@ public class Anime {
     public Anime() {
 
     }
-    
+
     public void imprimir() {
         System.out.println("Nome: " + nome);
         System.out.println("Tipo: " + tipo);
