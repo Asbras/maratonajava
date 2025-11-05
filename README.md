@@ -411,3 +411,35 @@ Em java, existem quatro tipos de modificadores de acesso:
 - private: Somente a própria classe tem acesso.
 - default: Acesso permitido apenas para classes do mesmo pacote.
 
+## Encapsulamento
+
+O encapsulamento em Java é um princípio da programação orientada a objetos que consiste em ocultar os detalhes internos
+de uma classe, expondo apenas o necessário por meio de métodos públicos (getters e setters).
+
+### Getter e Setter
+
+``` java
+public class Aluno {
+    private String nome;
+    private int numeroAluno;
+    
+    public String getNome() {
+        return nome;
+    }
+    
+    public int getNumeroAluno() {
+        return numeroAluno;
+    }
+    
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    public void setNumeroAluno(int numeroAluno) {
+        if (numeroAluno <= 0) {
+            throw new IllegalArgumentException("Número do aluno deve ser positivo");
+        }
+        this.numeroAluno = numeroAluno;
+    }
+}    
+```
