@@ -515,8 +515,3 @@ public class Aluno {
     }
 }
 ```
-
-```text
-saída esperada:
-Aluno: Maria, Idade: 20
-```
