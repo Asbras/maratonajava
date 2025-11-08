@@ -3,6 +3,7 @@
 **Por: Leonardo Carnio Della Torre (@Asbras)**
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
+![Progresso](https://img.shields.io/badge/progresso-25%25-brightgreen)
 
 > Repositório com **todos os exercícios** da **Maratona Java do DevDojo**
 
@@ -13,7 +14,7 @@
 - [01. Introdução](docs/01-introducao.md)
 - [02. Instalação](docs/02-instalacao.md)
 - [03. Sintaxe Básica](docs/03-sintaxe-basica.md)
-- [04. Estruturas de Controle](docs/04-estrutura-de-constrole.md)
+- [04. Estruturas de Controle](docs/04-estrutura-de-controle.md)
 - [05. Arrays](docs/05-arrays.md)
 
 ### POO Básica
