@@ -1,4 +1,4 @@
-package maratonajava.javacore.GAssociacao.test;
+package maratonajava.javacore.Gassociacao.test;
 
 import java.util.Scanner;
 

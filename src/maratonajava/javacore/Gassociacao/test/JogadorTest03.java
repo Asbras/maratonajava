@@ -1,7 +1,7 @@
-package maratonajava.javacore.GAssociacao.test;
+package maratonajava.javacore.Gassociacao.test;
 
-import maratonajava.javacore.GAssociacao.domain.Jogador;
-import maratonajava.javacore.GAssociacao.domain.Time;
+import maratonajava.javacore.Gassociacao.domain.Jogador;
+import maratonajava.javacore.Gassociacao.domain.Time;
 
 public class JogadorTest03 {
     public static void main(String[] args) {

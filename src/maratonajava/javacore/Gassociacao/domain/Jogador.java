@@ -1,4 +1,4 @@
-package maratonajava.javacore.GAssociacao.domain;
+package maratonajava.javacore.Gassociacao.domain;
 
 public class Jogador {
     private String nome;
