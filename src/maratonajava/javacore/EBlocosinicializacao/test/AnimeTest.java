@@ -1,6 +1,6 @@
 package maratonajava.javacore.EBlocosinicializacao.test;
 
-import maratonajava.javacore.EBlocosinicializacao.domain.Anime;
+import maratonajava.javacore.Fmodificadorestatico.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {
