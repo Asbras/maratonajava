@@ -1,24 +1,29 @@
 package maratonajava.Exercicios.domain;
 
 public class Aluno {
-    public String nome;
-    public double nota1;
-    public double nota2;
+    private String nome;
+    private int idade;
+    private Seminario seminario;
 
-    public void verificarAprovacao() {
-        double media = (nota1 + nota2) / 2;
-        System.out.println("Aluno: " + nome);
-        System.out.println("Média: " + media);
 
-        if (media >= 7) {
-            System.out.println("Aprovado");
-        } else if (media >= 3) {
-            System.out.println("Recuperação");
-        } else {
-            System.out.println("Reprovado");
-        }
-        System.out.println(); // Pular uma linha para organizar melhor a saída
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
+    public String getNome() {
+        return nome;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
 }
