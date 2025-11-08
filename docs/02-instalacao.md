@@ -1,7 +1,7 @@
 ## Instalação do Java no Linux
 
-Para compilar e executar programas em Java, é necessário instalar o **JDK (Java Development Kit)**.  
-A versão **JDK 17 (LTS)** é a mais recomendada para estudo e desenvolvimento, pois é estável e amplamente suportada.
+Para compilar e executar programas em Java, é necessário instalar o **JDK (Java Development Kit)**.
+
 ---
 
 ### Ubuntu/Debian
