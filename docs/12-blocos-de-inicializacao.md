@@ -38,6 +38,8 @@ public class Exemplo {
 }
 ```
 
+---
+
 ### 🔹 2. Bloco de inicialização estático
 
 É executado apenas uma vez, quando a classe é carregada pela JVM (antes de qualquer objeto ser criado ou método
@@ -59,6 +61,8 @@ public class Configuracao {
         Main executado!
 */
 ```
+
+---
 
 | Tipo          | Quando é executado                   | Quantas vezes | Usado para                      |
 |---------------|--------------------------------------|---------------|---------------------------------|

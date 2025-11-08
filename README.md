@@ -26,5 +26,6 @@
 - [10. Sobrecarga](docs/10-sobrecarga.md)
 - [11. Construtores](docs/11-construtores.md)
 - [12. Blocos de inicialização](docs/12-blocos-de-inicializacao.md)
+- [13. Modificador estático](docs/13-modificador-estatico.md)
 
 > Em construção: Herança, Polimorfismo, Exceptions, Collections...
