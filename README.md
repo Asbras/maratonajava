@@ -12,7 +12,7 @@
 
 - [Introdução](docs/01-Introducao.md)
 - [Instalação no Linux](docs/02-instalacao.md)
-- [Sintaxe Básica](docs/03-sintaxe-basica)
+- [Sintaxe Básica](docs/03-sintaxe-basica.md)
 - [Estruturas de Controle](#estruturas-de-controle)
     - [Condicionais (`if`, `switch`, ternário)](#condicionais)
     - [Laços de Repetição (`for`, `while`)](#laço-de-repetição)
