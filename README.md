@@ -25,5 +25,6 @@
 - [09. Encapsulamento](docs/09-encapsulamento.md)
 - [10. Sobrecarga](docs/10-sobrecarga.md)
 - [11. Construtores](docs/11-construtores.md)
+- [12. Blocos de inicialização](docs/12-blocos-de-inicializacao.md)
 
 > Em construção: Herança, Polimorfismo, Exceptions, Collections...

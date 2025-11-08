@@ -1,22 +1,52 @@
 ## Instalação do Java no Linux
 
-Instale o **JDK 17** (LTS) para compilar e executar:
+Para compilar e executar programas em Java, é necessário instalar o **JDK (Java Development Kit)**.  
+A versão **JDK 17 (LTS)** é a mais recomendada para estudo e desenvolvimento, pois é estável e amplamente suportada.
+---
 
-### Ubuntu / Debian
+### Ubuntu/Debian
 
 ```bash
 sudo apt update
 sudo apt install openjdk-17-jdk -y
+
+# Verifique a instalação
 java -version
 javac -version
+```
 
-# Fedora/Red Hat
+---
+
+### Fedora
+
+```bash
 sudo dnf update
-sudo dnf install java-17-openjdk-devel
+sudo dnf install java-17-openjdk-devel -y
+
+# Verifique a instalação
 java -version
 javac -version
+```
 
-# Configuração opcional da variável JAVA_HOME
+---
+
+### Arch Linux / Manjaro
+
+```bash
+sudo pacman -Syu jdk17-openjdk
+# Verifique a instalação
+java -version
+javac -version
+#Caso utilize o AUR, também é possível instalar via yay:
+yay -S jdk17-openjdk
+```
+
+---
+
+### Configuração da variável JAVA_HOME
+
+```bash
 echo "export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))" >> ~/.bashrc
-source ~/.bashrc 
+echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> ~/.bashrc
+source ~/.bashrc
 ```
