@@ -29,12 +29,35 @@ public class Anime {
         System.out.println("---");
     }
 
-    public String getNome() { return nome; }
-    public String getTipo() { return tipo; }
-    public int getQntEpisodios() { return qntEpisodios; }
-    public String getGenero() { return genero; }
-    public void setNome(String nome) { this.nome = nome; }
-    public void setTipo(String tipo) { this.tipo = tipo; }
-    public void setQntEpisodios(int qntEpisodios) { this.qntEpisodios = qntEpisodios; }
-    public void setGenero(String genero) { this.genero = genero; }
+    public String getNome() {
+        return nome;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public int getQntEpisodios() {
+        return qntEpisodios;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setQntEpisodios(int qntEpisodios) {
+        this.qntEpisodios = qntEpisodios;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
 }

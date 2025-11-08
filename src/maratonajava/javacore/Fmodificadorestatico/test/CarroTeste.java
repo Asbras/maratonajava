@@ -2,7 +2,7 @@ package maratonajava.javacore.Fmodificadorestatico.test;
 
 import maratonajava.javacore.Fmodificadorestatico.domain.Carro;
 
-public class CarroTeste01 {
+public class CarroTeste {
 
     public static void main(String[] args) {
         Carro c1 = new Carro("BMW", 280);
