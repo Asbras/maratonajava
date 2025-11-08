@@ -10,7 +10,7 @@
 
 ## Menu Rápido
 
-- [Introdução](#introdução)
+- [Introdução](docs/01-Introducao.md)
 - [Instalação no Linux](#instalação-do-java-no-linux)
 - [Sintaxe Básica](#sintaxe-básica)
     - [Tipos de Dados](#tipos-de-dados)
@@ -28,17 +28,6 @@
 - [Encapsulamento](#encapsulamento)
 - [Sobrecarga](#sobrecarga)
 - [Construtores](#construtores)
-
-## Introdução
-
-**Java** é uma linguagem de programação de alto nível, orientada a objetos, amplamente usada para desenvolver aplicações
-multiplataforma. Ela é compilada para um código intermediário chamado *bytecode*, que não é executado diretamente pelo
-sistema operacional, mas sim interpretado pela **Java Virtual Machine (JVM)**, permitindo que o mesmo programa rode em
-diferentes sistemas.
-
-.java → javac → .class (bytecode) → JVM (JIT) → Código nativo
-
-![compilation.png](./images/java%20compilation.png)
 
 ## Instalação do Java no Linux
 
