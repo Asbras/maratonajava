@@ -7,4 +7,4 @@ diferentes sistemas.
 
 .java → javac → .class (bytecode) → JVM (JIT) → Código nativo
 
-![compilation.png](./images/java%20compilation.png)
+![compilation.png](../images/java%20compilation.png)
