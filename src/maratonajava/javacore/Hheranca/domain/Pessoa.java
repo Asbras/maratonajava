@@ -1,9 +1,33 @@
 package maratonajava.javacore.Hheranca.domain;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    // O modificador de acesso protected permite que os atributos sejam acessados por subclasses e por
+    // classes que estão no mesmo pacote
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
+
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de pessoa");
+    }
+
+    {
+        System.out.println("Dentro do bloco inicialização de pessoa 1");
+    }
+
+    {
+        System.out.println("Dentro do bloco inicialização de pessoa 2");
+    }
+
+    public Pessoa(String nome) {
+        System.out.println("Dentro do contrutor de Pessoa");
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf) {
+        this(nome);
+        this.cpf = cpf;
+    }
 
     public String getNome() {
         return nome;
@@ -29,12 +53,10 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
-    @Override
-    public String toString() {
-        return "Pessoa{" +
-                "nome='" + nome + '\'' +
-                ", cpf='" + cpf + '\'' +
-                ", endereco=" + endereco +
-                '}';
+    public void imprime() {
+        System.out.println(this.nome);
+        System.out.println(this.cpf);
+        System.out.println(this.endereco.getRua() + " " + this.endereco.getCep());
+
     }
 }
