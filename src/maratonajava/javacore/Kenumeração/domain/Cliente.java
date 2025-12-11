@@ -1,9 +1,8 @@
 package maratonajava.javacore.Kenumeração.domain;
 
 public class Cliente {
-    public enum TipoPagamento {
-        DEBITO, CREDITO
-    }
+
+    public static Object TipoPagamento;
     private String nome;
     private  TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
