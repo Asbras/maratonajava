@@ -1,4 +1,4 @@
-package maratonajava.javacore.Kenumeração.domain;
+package maratonajava.javacore.Kenum.domain;
 
 public enum TipoPagamento {
 

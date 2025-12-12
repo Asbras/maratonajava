@@ -1,8 +1,8 @@
-package maratonajava.javacore.Kenumeração.test;
+package maratonajava.javacore.Kenum.test;
 
-import maratonajava.javacore.Kenumeração.domain.Cliente;
-import maratonajava.javacore.Kenumeração.domain.TipoCliente;
-import maratonajava.javacore.Kenumeração.domain.TipoPagamento;
+import maratonajava.javacore.Kenum.domain.Cliente;
+import maratonajava.javacore.Kenum.domain.TipoCliente;
+import maratonajava.javacore.Kenum.domain.TipoPagamento;
 
 public class ClienteTest01 {
     public static void main(String[] args) {
