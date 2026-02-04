@@ -28,5 +28,5 @@
 - [12. Blocos de inicialização](docs/12-blocos-de-inicializacao.md)
 - [13. Modificador estático](docs/13-modificador-estatico.md)
 - [14. Associação](docs/14-associacao.md)
+- [15. Herança](docs/15-heranca.md)
 
-> Em construção: Herança, Polimorfismo, Exceptions, Collections...
