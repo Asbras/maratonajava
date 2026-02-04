@@ -3,7 +3,7 @@
 **Por: Leonardo Carnio Della Torre (@Asbras)**
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
-![Progresso](https://img.shields.io/badge/progresso-22.4%25-brightgreen)
+![Progresso](https://img.shields.io/badge/progresso-33%25-brightgre)
 
 > Repositório com **todos os exercícios** da **Maratona Java do DevDojo**
 
@@ -27,5 +27,6 @@
 - [11. Construtores](docs/11-construtores.md)
 - [12. Blocos de inicialização](docs/12-blocos-de-inicializacao.md)
 - [13. Modificador estático](docs/13-modificador-estatico.md)
+- [14. Associação](docs/14-associacao.md)
 
 > Em construção: Herança, Polimorfismo, Exceptions, Collections...
