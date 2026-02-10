@@ -3,7 +3,7 @@
 **Por: Leonardo Carnio Della Torre (@Asbras)**
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
-![Progresso](https://img.shields.io/badge/progresso-33%25-brightgre)
+![Progresso](https://img.shields.io/badge/progresso-33%25-brightgreen)
 
 > Repositório com **todos os exercícios** da **Maratona Java do DevDojo**
 
@@ -29,4 +29,9 @@
 - [13. Modificador estático](docs/13-modificador-estatico.md)
 - [14. Associação](docs/14-associacao.md)
 - [15. Herança](docs/15-heranca.md)
+- [16. Sobrescrita](docs/16-sobrescrita.md)
+- [17. Modificador Final](docs/17-modificador-final.md)
+- [18. Enum](docs/18-enum.md)
+- [19. Classes abstratas](docs/19-classes-abstratas.md)
+- [20. Interfaces](docs/20-interfaces.md)
 
