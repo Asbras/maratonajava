@@ -1,4 +1,4 @@
-package maratonajava.Exercicios.Exercicio03.domain;
+package maratonajava.Exercicios.Introducao.Exercicio03.domain;
 
 public class ParOuImpar {
     // Exercício: determine se um número é par ou ímpar

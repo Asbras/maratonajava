@@ -1,6 +1,6 @@
-package maratonajava.Exercicios.Exercicio02.test;
+package maratonajava.Exercicios.Introducao.Exercicio02.test;
 
-import maratonajava.Exercicios.Exercicio02.domain.CalculadoraBasica;
+import maratonajava.Exercicios.Introducao.Exercicio02.domain.CalculadoraBasica;
 
 public class CalculadoraBasicaTest {
     public static void main(String[] args) {

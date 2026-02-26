@@ -1,4 +1,4 @@
-package maratonajava.Exercicios.Exercicio02.domain;
+package maratonajava.Exercicios.Introducao.Exercicio02.domain;
 
 public class CalculadoraBasica {
     // Exercício:

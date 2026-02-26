@@ -1,4 +1,4 @@
-package maratonajava.Exercicios.Exercicio01.domain;
+package maratonajava.Exercicios.Introducao.Exercicio01.domain;
 
 public class Impressora {
     private String nome;

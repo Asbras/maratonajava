@@ -1,6 +1,6 @@
-package maratonajava.Exercicios.Exercicio01.test;
+package maratonajava.Exercicios.Introducao.Exercicio01.test;
 
-import maratonajava.Exercicios.Exercicio01.domain.Impressora;
+import maratonajava.Exercicios.Introducao.Exercicio01.domain.Impressora;
 
 public class ImpressoraTest {
     public static void main(String[] args) {
