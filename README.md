@@ -3,7 +3,7 @@
 **Por: Leonardo Carnio Della Torre (@Asbras)**
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
-![Progresso](https://img.shields.io/badge/progresso-33%25-brightgreen)
+![Progresso](https://img.shields.io/badge/progresso-35%25-brightgreen)
 
 > Repositório com **todos os exercícios** da **Maratona Java do DevDojo**
 
