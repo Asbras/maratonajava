@@ -8,26 +8,20 @@ public class RuntimeExceptionTest04 {
     public static void main(String[] args) {
         try {
             throw new RuntimeException();
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Dentro do ArrayIndexOutOfBoundsException");
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Dentro do IndexOutOfBoundsException");
-        } catch (IllegalArgumentException e) {
-            System.out.println("Dentro do IllegalArgumentException");
-        } catch (ArithmeticException e) {
-            System.out.println("Dentro do ArithmeticException");
-        } catch (RuntimeException e) { // Exceções mais genéricas tem que vir no final, se não as menos genéricas não
-            // podem se alcançadas.
+        } catch (ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException e) {
+            System.out.println("Dentro do ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException");
+        } catch (RuntimeException e) {
             System.out.println("Dentro do RuntimeException");
         }
+        // Exceções mais genéricas tem que vir no final, se não as menos genéricas não podem se alcançadas.
         try {
             talvezLanceException();
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
-    private static void talvezLanceException() throws SQLException, FileNotFoundException {
+    private static void talvezLanceException() throws SQLException, FileNotFoundException, IOException {
 
     }
 }
