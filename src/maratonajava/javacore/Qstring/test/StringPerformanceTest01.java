@@ -1,6 +1,6 @@
 package maratonajava.javacore.Qstring.test;
 
-public class StringPerformanceTest {
+public class StringPerformanceTest01 {
     /*
      * Este exemplo demonstra a diferença de performance entre três abordagens
      * de concatenação de texto em Java: String, StringBuilder e StringBuffer.
